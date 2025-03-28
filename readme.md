@@ -69,7 +69,7 @@
 
 #### **Task 1: Employee Dataset Analysis**  
 
-**Objective**: Use Python and pandas to analyze the [Employee Dataset](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset) and derive actionable insights.  
+**Objective**: Use Python and pandas to analyze the [Employee Dataset](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset) and derive actionable insights.  You can download the [Employee Dataset](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset) data from Kaggle, you need to create an account on Kaggle since it requires to  downolad datasets
 
 **Requirements**:  
 
@@ -99,7 +99,7 @@
 **Requirements**:  
 
 1. **API Data Extraction**:  
-   - Fetch breed data programmatically (handle pagination/errors if needed).  
+   - Fetch breed data programmatically
 
 2. **Data Transformation**:  
    - Map API fields to CSV headers:  
