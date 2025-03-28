@@ -1,12 +1,13 @@
 ### **Week 1: Introduction to Data Analysis & Practicalities**  
 
 - **Objective**: Set up the environment and understand the data lifecycle.  
-- **Tools**: Python, Jupyter Notebook, Google Colab.  
+- **Tools**: Python, Visual Stuido Code, Jupyter Notebook on Anaconda, Google Colab.  
 - **Topics**:  
   - What is data analysis? (Descriptive vs. diagnostic vs. predictive).  
   - Installing Python libraries (`pip`, `conda`).  
-  - Data types (structured vs. unstructured data).  
+  - Data types (structured, semi struncture, unstructured data).  
   - Introduction to datasets (CSV, Excel, SQL).  
+  - Common File fomats of datasets(.txt, .csv, .tsv, .json. .xml, .xlsx)
   - Ethics in data handling (GDPR, privacy).  
   - **Hands-on**: Loading a dataset and basic exploration.
 
@@ -34,7 +35,7 @@
   - Customizing plots (labels, legends, colors).  
   - Subplots and multi-panel figures.  
   - Introduction to Seaborn for statistical visuals.  
-  - **Hands-on**: Visualizing trends in sales/weather data.
+  - **Hands-on**: Visualizing different datasets
 
 ---
 
@@ -64,4 +65,13 @@
 
 ### Exercise
 
-Flow [this example](https://nbviewer.org/github/juhanurmonen/data-analytics-basics-prepare-data/blob/main/Python_pandas_introduction.ipynb) to work on this data set [https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset](Employee dataset)
+1. Flow [this example](https://nbviewer.org/github/juhanurmonen/data-analytics-basics-prepare-data/blob/main/Python_pandas_introduction.ipynb) to work on this data set [Employee dataset](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset)
+
+2. Fetch the cats breed from the cat's api and transform the data to cats.csv. Here is the link for the API(<https://api.thecatapi.com/v1/breeds>)
+
+Heading of the CSV data with sample data looks like this:
+
+```sh
+ID,Name,Origin,Description,Temperament,Life Span (years),Weight (kg),Image URL
+abys,Abyssinian,Egypt,"The Abyssinian is easy to care for...",Active,Energetic,Independent,Intelligent,Gentle,14.5,4,https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg
+```
