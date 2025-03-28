@@ -22,7 +22,7 @@
   - Array operations (reshaping, slicing, broadcasting).  
   - Mathematical functions (aggregations, linear algebra).  
   - Random sampling (normal, uniform distributions).  
-  - **Hands-on**: Solving numerical problems (e.g., matrix multiplication, simulations).
+  - **Hands-on**: Solving numerical problems (e.g., Random data generation, matrix multiplication, ).
 
 ---
 
@@ -48,7 +48,7 @@
   - Indexing (`loc`, `iloc`), filtering, and grouping.  
   - Handling missing data (`dropna`, `fillna`).  
   - Merging/joining datasets.  
-  - **Hands-on**: Cleaning a messy dataset (e.g., customer records).
+  - **Hands-on**: Cleaning, Exploring, transforming, visualizing and  analysing different datasets
 
 ---
 
@@ -61,7 +61,7 @@
   - Measures of spread (variance, standard deviation, IQR).  
   - Skewness, kurtosis, and distributions (normal, binomial).  
   - Correlation and covariance.  
-  - **Hands-on**: Analyzing a dataset (e.g., GDP vs. population trends).
+  - **Hands-on**: Exporing and analyzing a dataset.
 
 ---
 
