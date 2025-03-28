@@ -63,15 +63,63 @@
   - Correlation and covariance.  
   - **Hands-on**: Analyzing a dataset (e.g., GDP vs. population trends).
 
+---
+
 ### Exercise
 
-1. Flow [this example](https://nbviewer.org/github/juhanurmonen/data-analytics-basics-prepare-data/blob/main/Python_pandas_introduction.ipynb) to work on this data set [Employee dataset](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset)
+#### **Task 1: Employee Dataset Analysis**  
 
-2. Fetch the cats breed from the cat's api and transform the data to cats.csv. Here is the link for the API(<https://api.thecatapi.com/v1/breeds>)
+**Objective**: Use Python and pandas to analyze the [Employee Dataset](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset) and derive actionable insights.  
 
-Heading of the CSV data with sample data looks like this:
+**Requirements**:  
 
-```sh
-ID,Name,Origin,Description,Temperament,Life Span (years),Weight (kg),Image URL
-abys,Abyssinian,Egypt,"The Abyssinian is easy to care for...",Active,Energetic,Independent,Intelligent,Gentle,14.5,4,https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg
-```
+1. **Data Preparation**:  
+   - Clean the dataset (handle missing values, duplicates, data types).  
+   - Validate columns like `salary`, `age`, and `management` for consistency.  
+
+2. **Exploratory Analysis**:  
+   - Generate summary statistics (mean, median, distributions).  
+   - Explore relationships between variables (e.g., `salary` vs. `education`, `management` vs. `environment` satisfaction).  
+
+3. **Visualization**:  
+   - Create visualizations (e.g., boxplots for salary distribution by education level, heatmaps for correlation analysis).  
+   - Highlight trends (e.g., attrition patterns linked to `management` scores).  
+
+4. **Key Questions**:  
+   - Does higher education correlate with salary or job retention?  
+   - Are there gender disparities in salary or promotion?  
+   - What workplace factors (e.g., `environment`, `colleagues`) most impact employee satisfaction?  
+
+---
+
+#### **Task 2: Cat Breed API to CSV Transformation**  
+
+**Objective**: Fetch data from [The Cat API](https://api.thecatapi.com/v1/breeds) and transform it into a structured `cats.csv` file.  
+
+**Requirements**:  
+
+1. **API Data Extraction**:  
+   - Fetch breed data programmatically (handle pagination/errors if needed).  
+
+2. **Data Transformation**:  
+   - Map API fields to CSV headers:  
+
+     ```csv
+     ID, Name, Origin, Description, Temperament, Life Span (years), Weight (kg), Image URL
+     ```  
+
+   - **Special Cases**:  
+     - Combine `temperament` as a comma-separated string (e.g., "Active, Curious").  
+     - Convert `weight` from imperial to metric if necessary.  
+     - Extract the first image URL from the breed’s `image` object.  
+
+3. **Validation**:  
+   - Handle missing fields (e.g., default `Description` to "N/A" if empty).  
+   - Ensure numeric columns (`Life Span`, `Weight`) are properly formatted.  
+
+    **Sample CSV Row**:  
+
+    ```csv
+    ID, Name, Origin, Description, Temperament, Life Span (years), Weight (kg), Image URL
+    abys,Abyssinian,Egypt,"The Abyssinian is easy to care for...","Active, Energetic, Independent",14.5,4,https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg
+    ```  
