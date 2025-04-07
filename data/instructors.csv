@@ -1,0 +1,11 @@
+,InstructorID,InstructorName,Email,Department,HireDate
+0,1,Dr. Smith,smith@school.com,Mathematics,2018-06-01
+1,2,Prof. Jones,jones@school.com,Science,2019-08-15
+2,3,Dr. Lee,lee@school.com,History,2020-01-10
+3,4,Ms. Taylor,taylor@school.com,Fine Arts,2021-03-20
+4,5,Dr. Brown,brown@school.com,Physics,2017-09-01
+5,6,Prof. Adams,adams@school.com,Science,2018-11-05
+6,7,Ms. Carter,carter@school.com,English,2022-02-15
+7,8,Mr. Wilson,wilson@school.com,Computer Science,2020-07-01
+8,9,Dr. Evans,evans@school.com,Psychology,2019-04-10
+9,10,Prof. Patel,patel@school.com,Economics,2021-09-01

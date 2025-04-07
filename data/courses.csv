@@ -1,0 +1,13 @@
+,CourseID,CourseName,Credits,InstructorID,StartDate,Department
+0,101,Math,3,1.0,2025-01-10,Mathematics
+1,102,Science,4,2.0,2025-01-10,Science
+2,103,History,3,3.0,2025-01-15,History
+3,104,Art,2,4.0,2025-02-01,Fine Arts
+4,105,Physics,4,5.0,2025-01-20,Physics
+5,106,Chemistry,3,6.0,2025-01-20,Science
+6,107,English Lit,3,7.0,2025-02-10,English
+7,108,Programming,4,8.0,2025-02-15,Computer Science
+8,109,Psychology,3,9.0,2025-01-25,Psychology
+9,110,Economics,3,10.0,2025-02-05,Economics
+10,111,Sociology,3,,2025-03-01,Sociology
+11,112,Statistics,4,,2025-03-10,Mathematics
