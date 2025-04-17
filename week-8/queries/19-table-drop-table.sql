@@ -1,0 +1,5 @@
+SHOW DATABASE;
+USE school;
+SHOW TABLES;
+
+DROP TABLE students;
