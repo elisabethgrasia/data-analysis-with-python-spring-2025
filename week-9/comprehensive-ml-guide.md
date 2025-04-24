@@ -20,6 +20,8 @@ This approach allows the system to adapt to new spam tactics without requiring c
 
 ### **2. Types of Machine Learning**
 
+![ Types of Machine Learning](./supervised_unsupervised_learning_2.jpg)
+
 #### **A. Supervised Learning**
 
 - **You provide both input and expected output.**  
@@ -48,8 +50,14 @@ Common algorithms:
 - **Linear Regression** – for predicting numbers  
 - **Logistic Regression** – for binary outcomes (yes/no)  
 - **Random Forest** – powerful for both classification and regression
+  
+![ Types of Machine Learning](./supervised_learning.jpg)
+
+![ Types of Machine Learning](./Supervised-learning_2.png)
 
 #### **B. Unsupervised Learning**
+
+![ Types of Machine Learning](./Unsupervised-Learning.png)
 
 - **No labels**, only input data.
 - Learn patterns from unlabeled data.
@@ -57,6 +65,7 @@ Common algorithms:
 - **Unsupervised Learning** finds patterns in unlabeled data.
 
 **Example**:  
+
 - *Example*: Grouping customers based on purchasing behavior without predefined categories.
 - *Use Case*: Market segmentation, anomaly detection in financial transactions.
 You have customer data:  
@@ -83,13 +92,16 @@ Algorithms:
 
 #### **C. Reinforcement Learning**
 
+![ Types of Machine Learning](./re_inforcement_learning.jpg)
+
 - Learn by interacting with an environment and getting rewards or penalties.
 - The model **learns by trial and error**.  
 - It gets **rewards or penalties** based on actions taken.
 
-**Example**: 
+**Example**:
+
 - *Example*: A game-playing agent learning chess by receiving rewards for winning moves.
-- *Use Case*: Self-driving cars, robotics, recommendation systems. 
+- *Use Case*: Self-driving cars, robotics, recommendation systems.
 A robot learns to walk:
 
 - Falls? Penalty.
@@ -100,7 +112,6 @@ Used in:
 
 - Self-driving cars  
 - Games (like AlphaGo or chess AI)
-
 
 ### 2. Key Elements Elaborated
 
