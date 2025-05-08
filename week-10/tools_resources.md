@@ -59,7 +59,7 @@ Cutting-edge AI systems assisting with data queries, code generation, and enhanc
 **Learning Resources**  
 Platforms offering courses, tutorials, and competitions to build and sharpen data analysis skills.  
 
-- [Kaggle](https://www.kaggle.com/) – Datasets, competitions, and hands-on projects  
+- [Kaggle](https://www.kaggle.com/) – Short courses, Datasets, competitions, and hands-on projects  
 - [freeCodeCamp](https://www.freecodecamp.org/) – Free coding tutorials and certifications  
 - [Coursera](https://www.coursera.org/) – University-level courses in data science and analytics  
 - [edX](https://www.edx.org/) – Massive open online courses from top institutions  
